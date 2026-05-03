@@ -9,12 +9,13 @@
       body {
         background-color: black;
         color: white;
-        margin: 0;
+        margin: 30;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
          font-family: sans-serif;
+
       }
 
       /* Style for the iframe container */
@@ -47,31 +48,16 @@
   </head>
   <body>
 
-    <img src="prince.jpg" width="320" height="240">
+<br><br><br>
+    <img src="manual.jpg" width="900" height="566">
 
-    <div class="game-container" id="game-wrapper">
-      <iframe id="game-frame" src="https://princejs.com/"></iframe>
+
 
     <!-- Fullscreen Button -->
-    <button onclick="openFullscreen();">Play Fullscreen</button>
-       <button onclick="openbuttons();">Keyboard buttons</button>
-    </div>
-
-
-    <script type="text/javascript">
-      var elem = document.getElementById("game-wrapper");
-
-      function openFullscreen() {
-        window.open("https://princejs.com/", "_blank");
-      }
-      function openbuttons() {
-        window.open("help.html", "_blank");
-      }
+    <button onclick="window.close();">SLUITEN</button></div>
 
 
 
-
-    </script>
 
   </body>
 </html>
